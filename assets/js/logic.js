@@ -81,8 +81,12 @@ function endQuiz() {
     clearInterval(timer);
     document.getElementById("questions").classList.add("hide");
     document.getElementById("end-screen").classList.remove("hide");
-    document.getElementById("final-score").textContent = timeLeft;
+    const finalScore = timeLeft;
+    document.getElementById("final-score").textContent = finalScore;
+
+    // Store the final score in localStorage
+    localStorage.setItem("finalScore", finalScore);
 }
 
 // Event listener for start button
-document.getElementById("start").addEventListener("click", startQuiz);
+// document.getElementById("start").addEventListener("click", startQuiz);

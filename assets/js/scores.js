@@ -5,7 +5,8 @@ document.addEventListener("DOMContentLoaded", function () {
     // Display the final score on the highscores page
     document.getElementById("final-score").textContent = finalScore;
 
-    // For example, I am creating  a new list item and append it to the highscores list
+    
+    // For example, I create a new list item and append it to the highscores list
     if (finalScore) {
         const highscoresList = document.getElementById("highscores");
         const listItem = document.createElement("li");

@@ -14,4 +14,15 @@ document.addEventListener("DOMContentLoaded", function () {
         listItem.textContent = `Score: ${finalScore}`;
         highscoresList.appendChild(listItem);
     }
+
+      // Add event listener for the "Clear Highscores" button
+      document.getElementById("clear").addEventListener("click", function () {
+        // Clear the highscores from localStorage
+        localStorage.removeItem("finalScore");
+        localStorage.removeItem("userInitials");
+
+        // Optionally, I can also clear any displayed content on the page
+        document.getElementById("final-score").textContent = "";
+        document.getElementById("user-initials").textContent = "";
+    });
 });

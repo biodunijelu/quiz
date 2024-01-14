@@ -34,6 +34,31 @@ function displayQuestion() {
     });
 }
 
+//  function to check the selected answer
+function checkAnswer(selectedAnswer) {
+    const correctAnswer = quizQuestions[currentQuestionIndex].correctAnswer;
+
+    // Check if the selected answer is correct
+    if (selectedAnswer === correctAnswer) {
+        // Handle correct answer
+        document.getElementById("feedback").textContent = "Correct!";
+    } else {
+        // Handle incorrect answer (subtract time)
+        timeLeft -= 10; // Subtract 10 seconds for incorrect answer
+        document.getElementById("feedback").textContent = "Wrong!";
+    }
+
+    // Move to the next question
+    currentQuestionIndex++;
+
+    // Check if there are more questions
+    if (currentQuestionIndex < quizQuestions.length) {
+        displayQuestion();
+    } else {
+        // Quiz is complete
+        endQuiz();
+    }
+}
 
 function startTimer() {
     // Code to start the timer

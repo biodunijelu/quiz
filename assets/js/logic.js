@@ -60,8 +60,20 @@ function checkAnswer(selectedAnswer) {
     }
 }
 
+// Function to start the timer
 function startTimer() {
-    // Code to start the timer
+    timer = setInterval(function () {
+        // Display the current time
+        document.getElementById("time").textContent = timeLeft;
+
+        // Check if the timer has reached 0
+        if (timeLeft <= 0) {
+            clearInterval(timer); // Stop the timer
+            endQuiz();
+        }
+
+        timeLeft--; // Decrease the time by 1 second
+    }, 1000); // Update every second
 }
 
 // Add more functions based on your logic

@@ -3,7 +3,7 @@ const quizQuestions = [
     {
         question: "1. What does HTML stand for?",
         choices: ["a) Hyper Text Markup Language", "b) Hyperlinks and Text Markup Language", "c) Home Tool Markup Language", "d) Hyper Transfer Markup Language"],
-        correctAnswer: "Hyper Text Markup Language"
+        correctAnswer: "a) Hyper Text Markup Language"
     },
 
     {

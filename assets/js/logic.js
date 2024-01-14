@@ -106,14 +106,25 @@ function endQuiz() {
     // Store the final score in localStorage
     localStorage.setItem("finalScore", finalScore);
 
-    // Prompt the user for initials (you can modify this according to your needs)
-    const userInitials = prompt("Enter your initials (max 3 characters):") || "";
-    localStorage.setItem("userInitials", userInitials);
-
-    // Redirect to highscores.html
-    window.location.href = "highscores.html";
+   
 }
 
 
 // Event listener for start button
  document.getElementById("start").addEventListener("click", startQuiz);
+
+ // Add this at the end of your logic.js file
+document.getElementById("submit").addEventListener("click", function () {
+    // Retrieve the final score
+    const finalScore = document.getElementById("final-score").textContent;
+
+    // Retrieve the initials
+    const initials = document.getElementById("initials").value;
+
+    // Store the final score and initials in localStorage
+    localStorage.setItem("finalScore", finalScore);
+    localStorage.setItem("userInitials", initials);
+
+    // Redirect to highscores.html
+    window.location.href = "highscores.html";
+});

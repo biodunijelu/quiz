@@ -76,7 +76,13 @@ function startTimer() {
     }, 1000); // Update every second
 }
 
-// Add more functions based on your logic
+// Function to end the quiz
+function endQuiz() {
+    clearInterval(timer);
+    document.getElementById("questions").classList.add("hide");
+    document.getElementById("end-screen").classList.remove("hide");
+    document.getElementById("final-score").textContent = timeLeft;
+}
 
 // Event listener for start button
 document.getElementById("start").addEventListener("click", startQuiz);

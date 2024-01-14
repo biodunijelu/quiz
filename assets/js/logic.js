@@ -99,15 +99,21 @@ function endQuiz() {
     clearInterval(timer);
     document.getElementById("questions").classList.add("hide");
     document.getElementById("end-screen").classList.remove("hide");
+
     const finalScore = timeLeft;
     document.getElementById("final-score").textContent = finalScore;
 
     // Store the final score in localStorage
     localStorage.setItem("finalScore", finalScore);
 
-      // Redirect to highscores.html
-      window.location.href = "highscores.html";
+    // Prompt the user for initials (you can modify this according to your needs)
+    const userInitials = prompt("Enter your initials (max 3 characters):") || "";
+    localStorage.setItem("userInitials", userInitials);
+
+    // Redirect to highscores.html
+    window.location.href = "highscores.html";
 }
+
 
 // Event listener for start button
  document.getElementById("start").addEventListener("click", startQuiz);

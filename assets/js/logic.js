@@ -104,6 +104,9 @@ function endQuiz() {
 
     // Store the final score in localStorage
     localStorage.setItem("finalScore", finalScore);
+
+      // Redirect to highscores.html
+      window.location.href = "highscores.html";
 }
 
 // Event listener for start button

@@ -75,4 +75,5 @@ Screenshot (https://github.com/biodunijelu/quiz/blob/main/images/mockup_design.p
 Deployment: `Deploy url [https://biodunijelu.github.io/quiz/]`
 
 ## License
-  
+
+This project is licensed under the [bootcampspot]. 

@@ -1,6 +1,6 @@
-# Coding Quiz Challenge
+# Coding Quiz App
 
-Welcome to the Coding Quiz Challenge! This is a web application that allows users to take a timed quiz on JavaScript fundamentals. Users can store their high scores and compare their progress with peers.
+Welcome to the Coding Quiz App! This is a web application that allows users to take a timed quiz on JavaScript fundamentals. Users can store their high scores and compare their progress with peers.
 
 ## Table of Contents
 - [Description](#description)
@@ -12,7 +12,7 @@ Welcome to the Coding Quiz Challenge! This is a web application that allows user
 
 ## Description
 
-The Coding Quiz Challenge is a web-based quiz application that tests users' knowledge of JavaScript fundamentals. The quiz is timed, and incorrect answers result in a time penalty. Users can save their high scores and view them on the Highscores page.
+The Coding Quiz App is a web-based quiz application that tests users' knowledge of JavaScript fundamentals. The quiz is timed, and incorrect answers result in a time penalty. Users can save their high scores and view them on the Highscores page.
 
 ## Features
 

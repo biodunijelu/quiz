@@ -68,7 +68,7 @@ c. View high scores by clicking on "View Highscores" or navigating to highscores
 
 ## Mockup Result
 
-Screenshot (https://github.com/biodunijelu/quiz/blob/main/images/mockup_design.png)
+Screenshot (https://github.com/biodunijelu/quiz/blob/main/assets/images/mockup_design.png)
 
 ## Deployment
 

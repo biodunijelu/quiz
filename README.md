@@ -46,3 +46,13 @@ The Coding Quiz Challenge is a web-based quiz application that tests users' know
   * js/scores.js: JavaScript file for handling high scores.
 
   ## Contributing
+
+  If you'd like to contribute to this project, please follow these guidelines:
+
+- Fork the repository.
+- Create a new branch (git checkout -b feature/your-feature-name).
+- Make your changes and commit them (git commit -m 'Add some feature').
+- Push to the branch (git push origin feature/your-feature-name).
+- Open a pull request.
+
+  

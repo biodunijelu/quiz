@@ -25,14 +25,22 @@ The Coding Quiz App is a web-based quiz application that tests users' knowledge 
 
 ## Usage
 
+1. Clone this repository to your local machine:
  ```bash
    git clone https://github.com/biodunijelu/quiz
 ```
-1. Open the index.html file in your web browser to start the quiz.
 
-2. After completing the quiz, enter your initials to save your high score.
+2. Navigate to the project directory:
 
-3. View high scores by clicking on "View Highscores" or navigating to highscores.html.
+    ```bash
+    cd quiz
+
+    ```
+a. Open the index.html file in your web browser to start the quiz.
+
+b. After completing the quiz, enter your initials to save your high score.
+
+c. View high scores by clicking on "View Highscores" or navigating to highscores.html.
 
 ## File Structure
 

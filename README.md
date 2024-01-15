@@ -43,4 +43,6 @@ The Coding Quiz Challenge is a web-based quiz application that tests users' know
   * css/styles.css: Stylesheet for the application.
   * js/questions.js: JavaScript file with quiz questions.
   * js/logic.js: JavaScript file with quiz logic.
-  * js/scores.js: JavaScript file for handling high scores..
+  * js/scores.js: JavaScript file for handling high scores.
+
+  ## Contributing

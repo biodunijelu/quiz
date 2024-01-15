@@ -9,3 +9,7 @@ Welcome to the Coding Quiz Challenge! This is a web application that allows user
 - [File Structure](#file-structure)
 - [Contributing](#contributing)
 - [License](#license)
+
+## Description
+
+The Coding Quiz Challenge is a web-based quiz application that tests users' knowledge of JavaScript fundamentals. The quiz is timed, and incorrect answers result in a time penalty. Users can save their high scores and view them on the Highscores page.

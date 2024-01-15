@@ -26,6 +26,7 @@ The Coding Quiz App is a web-based quiz application that tests users' knowledge 
 ## Usage
 
 1. Clone this repository to your local machine:
+
  ```bash
    git clone https://github.com/biodunijelu/quiz
 ```

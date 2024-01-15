@@ -25,9 +25,22 @@ The Coding Quiz Challenge is a web-based quiz application that tests users' know
 
  ```bash
    git clone https://github.com/biodunijelu/quiz
-
+```
 1. Open the index.html file in your web browser to start the quiz.
 
 2. After completing the quiz, enter your initials to save your high score.
 
 3. View high scores by clicking on "View Highscores" or navigating to highscores.html.
+
+## File Structure
+* 'index.html': Main HTML file for the quiz.
+
+* 'highscores.html': HTML file for displaying high scores.
+
+* 'assets/': Directory containing CSS and JavaScript files
+
+ 
+  * css/styles.css: Stylesheet for the application.
+  * js/questions.js: JavaScript file with quiz questions.
+  * js/logic.js: JavaScript file with quiz logic.
+  * js/scores.js: JavaScript file for handling high scores..

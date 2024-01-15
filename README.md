@@ -8,6 +8,7 @@ Welcome to the Coding Quiz App! This is a web application that allows users to t
 - [Usage](#usage)
 - [File Structure](#file-structure)
 - [Contributing](#contributing)
+- [mockup Result](#mockup-result)
 - [License](#license)
 
 ## Description
@@ -55,6 +56,10 @@ The Coding Quiz App is a web-based quiz application that tests users' knowledge 
 - Make your changes and commit them (git commit -m 'Add some feature').
 - Push to the branch (git push origin feature/your-feature-name).
 - Open a pull request.
+
+## Mockup Result
+
+Screenshot (https://github.com/biodunijelu/quiz/blob/main/images/mockup_design.png)
 
 ## License
   

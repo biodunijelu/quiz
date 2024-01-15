@@ -33,6 +33,7 @@ The Coding Quiz Challenge is a web-based quiz application that tests users' know
 3. View high scores by clicking on "View Highscores" or navigating to highscores.html.
 
 ## File Structure
+
 * 'index.html': Main HTML file for the quiz.
 
 * 'highscores.html': HTML file for displaying high scores.
@@ -45,7 +46,7 @@ The Coding Quiz Challenge is a web-based quiz application that tests users' know
   * js/logic.js: JavaScript file with quiz logic.
   * js/scores.js: JavaScript file for handling high scores.
 
-  ## Contributing
+## Contributing
 
   If you'd like to contribute to this project, please follow these guidelines:
 
@@ -55,4 +56,5 @@ The Coding Quiz Challenge is a web-based quiz application that tests users' know
 - Push to the branch (git push origin feature/your-feature-name).
 - Open a pull request.
 
+## License
   

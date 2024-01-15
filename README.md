@@ -9,6 +9,7 @@ Welcome to the Coding Quiz App! This is a web application that allows users to t
 - [File Structure](#file-structure)
 - [Contributing](#contributing)
 - [mockup Result](#mockup-result)
+- [Deployment](#deployment)
 - [License](#license)
 
 ## Description
@@ -60,6 +61,10 @@ The Coding Quiz App is a web-based quiz application that tests users' knowledge 
 ## Mockup Result
 
 Screenshot (https://github.com/biodunijelu/quiz/blob/main/images/mockup_design.png)
+
+## Deployment
+
+Deployment: `Deploy url [https://biodunijelu.github.io/quiz/]`
 
 ## License
   
